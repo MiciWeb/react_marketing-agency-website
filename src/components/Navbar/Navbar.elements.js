@@ -81,16 +81,6 @@ export const NavItem = styled.li`
     }
   }
 `
-export const NavItemBtn = styled.li`
-  @media screen and (max-width: 960px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 120px;
-  }
-`
-
 export const NavLinks = styled(Link)`
   color: #fff;
   display: flex;
@@ -110,7 +100,7 @@ export const NavLinks = styled(Link)`
   }
 `
 
-/* export const NavItemBtn = styled.li`
+export const NavItemBtn = styled.li`
   @media screen and (max-width: 960px) {
     display: flex;
     justify-content: center;
@@ -130,4 +120,4 @@ export const NavBtnLink = styled(Link)`
   width: 100%;
   border: none;
   outline: none;  
-` */
+`
