@@ -3,18 +3,17 @@ import styled from "styled-components"
 export const InfoSec = styled.div`
 color: #fff;
 padding: 75px 0;
-background : ${({ lightBg }) => (lightBg ? "#fff" : "#101522")}
+background : ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
+height: 88vh;
 `
 
 export const InfoRow = styled.div`
 display: flex;
-margin: 0 -15px -15px -15px;
 flex-wrap: wrap;
 align-items: center;
 flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')};
 @media screen and (max-width: 768px) {
 gap: 20px;
-
 }
 `
 
