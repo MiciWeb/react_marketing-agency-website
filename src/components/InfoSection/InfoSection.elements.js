@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const InfoSec = styled.div`
 color: #fff;
-padding: 160px 0;
+padding: 75px 0;
 background : ${({ lightBg }) => (lightBg ? "#fff" : "#101522")}
 `
 
@@ -12,6 +12,10 @@ margin: 0 -15px -15px -15px;
 flex-wrap: wrap;
 align-items: center;
 flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')};
+@media screen and (max-width: 768px) {
+gap: 20px;
+
+}
 `
 
 export const InfoColumn = styled.div`
@@ -38,7 +42,7 @@ export const TextWrapper = styled.div`
   }
 `
 
-export const imgWrapper = styled.div`
+export const ImgWrapper = styled.div`
 display: flex;
 max-width: 555px;
 justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
