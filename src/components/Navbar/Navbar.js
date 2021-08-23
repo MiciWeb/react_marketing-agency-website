@@ -51,9 +51,6 @@ const Navbar = () => {
                             <NavItem>
                                 <NavLinks to="/products">Products</NavLinks>
                             </NavItem>
-                            <NavItem>
-                                <NavLinks to="/services">Services</NavLinks>
-                            </NavItem>
                             <NavItemBtn>
                                 {button ? (
                                     <NavBtnLink to="/sign-up">
@@ -61,7 +58,7 @@ const Navbar = () => {
                                     </NavBtnLink>
                                 ) : (
                                         <NavBtnLink to="/sign-up">
-                                            <Button onClick={closeMobileMenu}  fontBig primary>
+                                            <Button onClick={closeMobileMenu} fontBig primary>
                                                 SIGN UP
                                         </Button>
                                         </NavBtnLink>
