@@ -2,9 +2,10 @@ import styled from "styled-components"
 
 export const InfoSec = styled.div`
 color: #fff;
-padding: 75px 0;
+padding: 15vh 0;
 background : ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
-height: 88vh;
+@media screen and (max-width:900px){
+}
 `
 
 export const InfoRow = styled.div`
