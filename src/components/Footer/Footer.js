@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from "../../globalStyles"
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedIn } from "react-icons/fa"
+import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa"
 import {
     FooterContainer,
     FooterSubscription,
@@ -12,7 +12,14 @@ import {
     FooterLinksWrapper,
     FooterLinksItems,
     FooterLinkTitle,
-    FooterLink
+    FooterLink,
+    SocialMedia,
+    SocialMediaWrap,
+    SocialLogo,
+    SocialIcon,
+    SocialIcons,
+    WebsiteRights,
+    SocialIconLink
 } from "./Footer.elements.js"
 
 const Footer = () => {
@@ -48,6 +55,8 @@ const Footer = () => {
                         <FooterLink to="./">Investors</FooterLink>
                         <FooterLink to="./">Terms of Service</FooterLink>
                     </FooterLinksItems>
+                </FooterLinksWrapper>
+                <FooterLinksWrapper>
                     <FooterLinksItems>
                         <FooterLinkTitle>Videos</FooterLinkTitle>
                         <FooterLink to="./sign-up">How it works</FooterLink>
@@ -70,7 +79,7 @@ const Footer = () => {
                 <SocialMediaWrap>
                     <SocialLogo to="/">
                         <SocialIcon />
-                        UlTRA
+                        ULTRA
                     </SocialLogo>
                     <WebsiteRights>ULTRA © 2021</WebsiteRights>
                     <SocialIcons>
