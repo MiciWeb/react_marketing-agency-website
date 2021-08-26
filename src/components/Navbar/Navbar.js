@@ -23,6 +23,7 @@ const Navbar = () => {
             setButton(true)
         }
     }
+    
 
     useEffect(() => {
         showButton()
@@ -59,7 +60,7 @@ const Navbar = () => {
                                     </NavBtnLink>
                                 ) : (
                                         <NavBtnLink to="/sign-up">
-                                            <Button onClick={closeMobileMenu} fontBig primary>
+                                            <Button fontBig primary>
                                                 SIGN UP
                                         </Button>
                                         </NavBtnLink>

@@ -3,11 +3,12 @@ import { InfoSection, Pricing } from "../../components"
 import { homeObjTwo, homeObjThree, homeObjFour } from "./Data"
 
 const Home = () => {
+
     return (
         <>
             <InfoSection {...homeObjTwo} />
             <InfoSection {...homeObjThree} />
-            <Pricing/>
+            <Pricing />
             <InfoSection {...homeObjFour} />
         </>
     )
