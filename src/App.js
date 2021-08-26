@@ -7,6 +7,8 @@ import Services from "./pages/Services/Services"
 import Products from "./pages/Products/Products"
 import SignUp from "./pages/SignUp/SignUp"
 import ScrollToTop from "./components/ScrollToTop"
+import { Redirect } from 'react-router';
+
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
       <GlobalStyle />
       <ScrollToTop />
       <Navbar />
+      <Route exact path="/react_marketing-agency-website">
+         <Redirect to="/" />
+      </Route>
       <Switch>
         <Route path="/" exact={true} component={Home} />
         <Route path="/services" exact={true} component={Services} />
