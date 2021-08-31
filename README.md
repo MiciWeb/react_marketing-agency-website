@@ -1,7 +1,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)**In Js**
 
 # Goal of the project
-The main goal of the project is to build the website of an marketing agency entirely in react.
+The main goal of the project is to build the website of an marketing agency entirely in react and responsively designed.
 
 ## How i build this project
 * I first learned to use the [styled components](https://styled-components.com/) library which allows to write Css in Js, I liked a lot this library because It's make the code more readable by giving us freedom to build customs and reusables components with CSS.
@@ -10,7 +10,7 @@ The main goal of the project is to build the website of an marketing agency enti
 
 * For the design and the main structure of the website i took inspiration from the video of an front-end youtuber name [Brian Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A).
 
-## What missing in this project
+## What is missing in this project
 I would have liked to learn and add test with [react testing library](https://testing-library.com/docs/react-testing-library/intro/) or [jest](https://jestjs.io/) but It's will be for my next react app.
 
 ## Launch the project
