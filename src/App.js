@@ -9,7 +9,6 @@ import SignUp from "./pages/SignUp/SignUp"
 import ScrollToTop from "./components/ScrollToTop"
 import { Redirect } from 'react-router';
 
-
 function App() {
   return (
     <Router>

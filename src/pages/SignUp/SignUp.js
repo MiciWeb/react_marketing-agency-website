@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react'
+import { InfoSection } from "../../components"
+import { homeObjFour } from "./Data"
 
 const Home = () => {
 
@@ -8,6 +10,7 @@ const Home = () => {
 
     return (
         <>
+            <InfoSection {...homeObjFour} />
         </>
     )
 }
