@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavLinks, NavItem, NavItemBtn, NavBtnLink } from "./Navbar.elements"
-import { FaBars, FaTimes } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
 import { Button } from "../../globalStyles";
 
@@ -38,30 +37,25 @@ const Navbar = () => {
                     <NavbarContainer>
                         <NavLogo to="/" onClick={closeMobileMenu}>
                             <NavIcon />
-                        ULTRA
+                        BLOG
                         </NavLogo>
-                        <MobileIcon onClick={handleClick} >
-                            {click ? <FaTimes /> : <FaBars />}
-                        </MobileIcon>
+                        
                         <NavMenu onClick={handleClick} click={click}>
                             <NavItem>
                                 <NavLinks to="/">Home</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/services">Services</NavLinks>
-                            </NavItem>
-                            <NavItem>
-                                <NavLinks to="/products">Products</NavLinks>
+                                <NavLinks to="/login">Login</NavLinks>
                             </NavItem>
                             <NavItemBtn>
                                 {button ? (
-                                    <NavBtnLink to="/sign-up">
-                                        <Button primary>SIGN UP</Button>
+                                    <NavBtnLink to="/register">
+                                        <Button primary>Register</Button>
                                     </NavBtnLink>
                                 ) : (
-                                        <NavBtnLink to="/sign-up">
+                                        <NavBtnLink to="/register">
                                             <Button fontBig primary>
-                                                SIGN UP
+                                                Register
                                         </Button>
                                         </NavBtnLink>
                                     )}

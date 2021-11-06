@@ -1,0 +1,81 @@
+.login {
+    width: 500px;
+    margin: auto;
+    background-color: #2ecc71;
+    border-radius: 20px;
+}
+
+.error {
+    color: white;
+    font-size: 18px;
+}
+
+h1 {
+    margin-left: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 2.8em;
+    color: #ffffff;
+}
+
+.formStyleLogin {
+    background-color: #2ecc71;
+    padding: 20px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ecf0f1;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    font-size: 1em;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.formButtonLogin {
+    float: right;
+    background-color: #ffffff;
+    display: inline-block;
+    color: #2ecc71;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 6px 24px;
+    margin-top: 15px;
+    margin-right: 60px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.formButtonLogin:hover {
+    background-color: #27ae60;
+    color: #ffffff;
+}
+
+.formButtonLogin:active {
+    position: relative;
+    top: 3px;
+}
+
+input:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #ecf0f1;
+}
+
+:-moz-placeholder {
+    color: #ecf0f1;
+}
+
+::-moz-placeholder {
+    color: #ecf0f1;
+}
+
+:-ms-input-placeholder {
+    color: #ecf0f1;
+}
